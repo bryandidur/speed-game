@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Speed Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <select id="level" class="form-control" tabindex="0">
+                    <option value="easy">Easy</option>
+                    <option value="intermediate" selected>Intermediate</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </div>
+            <div class="col-sm-12">
+                <div id="speed" class="speed" tabindex="1">
+                    <div class="speed-row clearfix">
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                    </div>
+                    <div class="speed-row clearfix">
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                    </div>
+                    <div class="speed-row clearfix">
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                    </div>
+                    <div class="speed-row clearfix">
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                    </div>
+                    <div class="speed-row clearfix">
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                    </div>
+                    <div class="speed-row clearfix">
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                    </div>
+                    <div class="speed-row clearfix">
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                    </div>
+                    <div class="speed-row clearfix">
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                    </div>
+                    <div class="speed-row clearfix">
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                    </div>
+                    <div class="speed-row clearfix">
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                        <div class="speed-item"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 text-center">
+                <p>Press (enter) to start|restart, (space) to play.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./SpeedItem.js"></script>
+    <script src="./SpeedRow.js"></script>
+    <script src="./Speed.js"></script>
+    <script src="./SpeedManager.js"></script>
+    <script src="./levels.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
