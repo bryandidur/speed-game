@@ -21,7 +21,7 @@ class SpeedManager
             this.speedNode.focus();
         };
 
-        document.body.onkeyup = (event) => {
+        document.body.onkeydown = (event) => {
             // Enter key press
             if (event.keyCode == 13 && ! this.hasActiveSpeed()) {
                 this.createSpeed();
